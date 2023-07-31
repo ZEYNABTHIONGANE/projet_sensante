@@ -1,0 +1,35 @@
+#topnav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  margin-bottom: -50px;
+  background-color: white;
+  border-bottom: 3px solid white;
+}
+
+#topnav li {
+  float: left;
+  border-right:3px solid white;
+}
+
+#topnav li:last-child {
+  border-right: none;
+}
+
+#topnav li a {
+  font-size: 80%;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: comic sans ms;
+}
+#topnav li a:hover {
+  color: white;
+}
+
+#topnav li:hover {
+  background-color: black;
+}

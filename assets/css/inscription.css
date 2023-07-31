@@ -1,0 +1,226 @@
+/* Import Google font - Poppins*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 5px;
+ 
+}
+
+header img{
+    width: 110px;
+    margin-left: 30px;
+    padding-left: 30px;
+    
+    
+}
+header .menu a{
+    position: relative;
+    padding-right: 10px;
+    margin: 0 10px;
+    text-decoration: none;
+    color: #008E8E;
+    text-transform: capitalize;
+    transition: 0.5s;
+    font-size: 20px;
+    
+}
+
+
+header .menu a:hover{
+    color: black;
+    font-size: 25px;
+}
+header .inscription .inscrire{
+    margin-right: 20px;
+    text-decoration: none;
+    border: 1px solid #008E8E;
+    color: #008E8E;
+    border-radius: 6px;
+    padding: 5px 20px;
+    margin-top: 5px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: 0.5s;
+}
+header .inscription .inscrire:hover{
+    background-color: #008E8E;
+    color: #fff;
+}
+
+
+   /* fin header */
+.home{
+    height: calc(100vh - 55px);
+    background-color: #008E8E;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 5%;
+    padding-bottom: 50px;
+
+}
+.home-infos{
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 50px;
+    animation: anime 2s linear;
+}
+/* animation home-infos */
+@keyframes anime{
+    from{
+        transform: translateX(-600px);
+    }
+}
+.home-infos h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.home-infos p {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.home-infos a {
+    text-decoration: none;
+    border: 1px solid #008E8E;
+    color: #008E8E;
+    border-radius: 6px;
+    padding: 5px 20px;
+    margin-top: 5px;
+    font-weight: 400;
+    text-transform: capitalize;
+    transition: 0.5s;
+
+}
+.home-infos a:hover{
+    background-color: #008E8E;
+    color: #fff;
+}
+   /* fin header */
+   .body{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    background: url("../../images/img10.jpg");
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    max-width: 650px;
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+   
+}
+.titre{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding: 10px;
+    color: #008E8E;
+   
+    border-bottom: solid 1px  white;
+}
+.main-user-infos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.user-input-box:nth-child(2n){
+    justify-content: end;
+}
+.user-input-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    padding-bottom: 15px;
+}
+.user-input-box label{
+    width: 95%;
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+.user-input-box input{
+    height: 40px;
+    width: 95%;
+    border-radius: 7px;
+    outline: none;
+    border: 1px solid grey;
+    padding: 0 10px;
+}
+.titre-genre{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    border-bottom:1px solid white ;
+}
+.categorie{
+    margin: 15px;
+    color: white;
+}
+.categorie label{
+    padding: 0 20px 0 5px;
+}
+.categorie label,
+.categorie input,
+.soumettre input{
+    cursor: pointer;
+}
+.soumettre {
+    margin-top: 40px;
+    margin-left: 190px;
+}
+.soumettre input{
+    display: block;
+    width: 50%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    padding: 10px ;
+    border: none;
+    border-radius: 3px;
+    color: rgb(209, 209, 209);
+    background-color: #008E8E;
+}
+.soumettre input:hover{
+    background:rgba(56, 204, 93, 0.7);
+    color: rgb(255, 255, 255);
+}
+@media(max-width: 600px){
+    .container{
+        min-width: 280px;
+    }
+    .user-input-box{
+        margin-bottom: 12px;
+        width: 100%;
+    }
+    .user-input-box:nth-child(2n){
+        justify-content: space-between;
+    }
+    .categorie{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .main-user-infos{
+        max-height: 380px;
+        overflow: auto;
+    }
+    .main-user-infos::-webkit-scrollbar{
+        width: 0;
+
+    }
+}

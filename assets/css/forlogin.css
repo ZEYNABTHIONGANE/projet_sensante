@@ -1,0 +1,81 @@
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white ;
+}
+
+form {
+  border : 1px solid black ;
+  margin: 20px 25% 0 25% ;
+  border-radius: 2px 2px 25px 25px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 6px 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 3px solid  #edbb99 ;
+  box-sizing: border-box;
+  font-size: 120%;
+  border-radius: 0px 0px 10px 10px ;
+}
+
+button {
+  background-color: black ;
+  color: white;
+  font-size: 18px ;
+  padding: 14px 20px;
+  margin: 0 35% 0 35%;
+  border: none;
+  cursor: pointer;
+  width: 30%;
+  border-radius: 0px 0px 10px 10px ;
+  margin-top: 30px ;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.cancelbtn {
+  width: 100px ;
+  padding: 10px 18px;
+  background-color: red ;
+}
+
+.imgcontainer {
+  text-align: center;
+  margin: 0%;
+  background-color: #edbb99  ;
+}
+
+.imgcontainer img {
+  width: 30% ;
+  border-radius: 50%;
+}
+
+.container {
+  background-color: white ;
+  padding: 16px;
+}
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.horloge {
+   font-size:30px;
+   color:  #edbb99 ;
+   margin-top:10px; 
+   margin-bottom:20px;
+   margin-left:30%; 
+   width:50%;
+   text-align: center;
+  }
+
+ .cancelbtn {
+     width: auto;
+     margin-left: 0% ;
+  }

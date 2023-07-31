@@ -1,0 +1,75 @@
+.alert_danger {
+  margin-left: 10%  ;
+  margin-bottom: 50px;
+  width: 80% ;
+  height: auto;
+  text-align: center ;
+  font-size: 75% ;
+  background-color: Pink ;
+  color: Darkred ;
+  border-radius: 8px;
+  animation: jackInTheBox 1 2s;
+}
+
+.alert_warning  {
+  margin-left: 10%  ;
+  margin-bottom: 50px;
+  width: 80% ;
+  height: auto;
+  text-align: center ;
+  font-size: 75% ;
+  background-color: white;
+  color: Darkred ;
+  border-radius: 8px;
+  animation: jackInTheBox 1 2s;
+}
+
+.alert_success {
+  margin-left: 10%  ;
+  margin-bottom: 50px;
+  width: 80% ;
+  height: auto;
+  text-align: center ;
+  font-size: 75% ;
+  background-color: lightgreen ;
+  color: green ;
+  border-radius: 8px;
+  animation: jackInTheBox 1 2s;
+}
+
+.alert_rouge {
+  margin-left: 10%  ;
+  margin-top: 30px;
+  padding-top: 0px;
+  width: 80% ;
+  height: 40px;
+  text-align: center;
+  font-size: 75% ;
+  background-color: #f44336;
+  color: white;
+  border-radius: 8px;
+  display: none ;
+  animation: jackInTheBox 1 2s;
+}
+
+.alert_neutral {
+  margin-left: 10%  ;
+  margin-bottom: 50px;
+  width: 80% ;
+  height: auto;
+  text-align: center ;
+  font-size: 75% ;
+  background-color: lightblue ;
+  color: Darkblue ;
+  border-radius: 8px;
+  animation: jackInTheBox 1 2s;
+}
+
+#add_patient a, #noIndex a {
+  height: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80%;
+  color: blue;
+}
+

@@ -1,0 +1,106 @@
+
+table {
+	width:80%;
+	margin-top: 15px;
+	margin-left: 10%;
+	margin-right: 10%;
+	border-collapse: collapse;
+	border-radius:8px;
+}
+
+tr.entete:hover {
+	background-color: black;
+	color: white;
+}
+
+th, td {
+  text-align: center;
+  padding: 8px;
+  font:15px grey verdana;
+}
+
+th {
+	background-color: lightgray ;
+	padding-top: 20px;
+	margin-bottom: 50px;
+	font-weight: bold;
+	height: 50px;
+	color: black;
+	text-align: center;
+	border: 2px solid black;
+}
+
+th.entete {
+	background-color:white;
+	border: 1px solid black;
+}
+
+article a {
+  height: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80%;
+  color: blue;
+}
+
+span.forneant{
+	color:red;
+	font-weight:bold;
+	font-size:115%;
+	font-family:verdana;
+	text-align: center;
+}
+
+h3 {
+	font-size: 80%;
+	font-family:tahoma;
+	color:black;
+	text-align: center;
+}
+
+span.initiales {
+	float: center;
+	font-family:cursive;
+	font-weight:bold;
+	text-decoration:underline;
+	color: grey;
+}
+															
+td.rvprecision {
+	font-size: 140%;
+	font-family: calibri;
+	text-align: center ;
+	color: black ;
+}
+
+td.servdemande  {
+	font-size:80%;
+	color:red;
+	font-family:comic sans Ms;
+	background-color: ;
+	text-align: center;
+}
+
+td.daterv {
+	font-size:100%;
+}
+
+.inputdaterv {
+	text-align: center;
+	font-weight: bold;
+	color: black;
+}
+
+button {
+	margin-top: 30px;
+	margin-left: 0%;
+}
+
+#add_patient a, #noIndex a {
+  height: 30px;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 80%;
+  color: blue;
+}
+
